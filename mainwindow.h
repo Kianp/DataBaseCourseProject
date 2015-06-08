@@ -26,8 +26,16 @@ public:
 
 private slots:
     void on_InsertCar_clicked();
-
     void on_InsertWheel_clicked();
+    void on_ToUpdateCare_clicked();
+    void on_toInsertCar_clicked();
+    void on_ToDeleteCar_clicked();
+    void on_pushButton_clicked();
+    void on_AffectedRowDeleteCar_valueChanged(int arg1);
+    void on_UpdateCar_clicked();
+    void on_AffectedRowUpdateCar_valueChanged(int arg1);
+
+    void on_DeleteCar_clicked();
 
 private:
     Ui::MainWindow *ui;
